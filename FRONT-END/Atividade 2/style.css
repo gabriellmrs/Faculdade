@@ -1,0 +1,76 @@
+body {
+    background-color: #30343f;
+}
+
+.caixa {
+    border-radius: 10px;
+    height: 350px;
+    color: black;
+
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    position: absolute;
+    width: 300px;
+    padding: 8% 0 0;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    background: #111214;
+    max-width: 300px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    top: 192px;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.nome_senha input {
+    
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #30343f;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #020202;
+    
+
+    
+}
+input::placeholder{
+    color: #565c65;
+}
+
+button{
+    color: rgb(252, 252, 252);
+    background-color: #009dfe;
+    border: none;
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 4%;
+}
+
+
+p{
+    color: #ffffff;
+}
+.conta{
+    color: #708090;
+    text-decoration: none;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}

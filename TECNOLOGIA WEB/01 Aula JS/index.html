@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercícios JS</title>
+</head>
+<body>
+
+    <header><!--Questão 1-->
+        <h1 id="cabecalho">Questão 1</h1>
+        <button onclick="alterarTexto()" class="button-magica">Clique para a Mágica</button>
+    </header>
+    <section>
+        <!--Questão 2-->
+        <div class="conteiner">
+            <h2>Questão 2</h2>
+            <p onclick="alterarCor()" id="p-alterarCor">Clique para alterar a cor do texto</p>
+        </div>
+
+        <!--Questão 3-->
+        <div class="conteiner">
+            <h2>Questão 3</h2>
+            <p id="meuParagrafo">Este é um parágrafo.</p>
+    
+            <button onclick="ocultarParagrafo()">Ocultar</button>
+            <button onclick="mostrarParagrafo()">Mostrar</button>
+        </div>
+
+        <!--Questão 4-->
+        <div class="conteiner">
+            <h2>Questão 4</h2>
+            <img src="imagens/foto-bebe-m.png" alt="Imagem" id="foto">
+            <button onclick="Crescer()">Crescer</button>
+            <p id="res"></p><!--Sai o texto da troca de imagem-->
+        </div>
+
+        <!--Questão 5-->
+        <div class="conteiner">
+            <h2>Questão 5</h2>
+            <img src="imagens/Harry_Potter.jpg" alt="Harry Potter" id="logoHp" height="200px" width="200px">
+            <button onclick="tamanho(100, 100)">Pequena</button>
+            <button onclick="tamanho(300, 300)">Media</button>
+            <button onclick="tamanho(500, 500)">Grande</button>
+        </div>
+        <!--Questão 6-->
+        <div class="conteiner">
+            <h2>Questão 6</h2>
+            <div class="thumbnails">
+                <div class="thumbnail">
+                    <img src="imagens/Python.png" alt="python" onclick="imagem('python')">
+                </div>
+                <div class="thumbnail">
+                    <img src="imagens/JavaScript.png" alt="JavaScript"  onclick="imagem('javascript')">
+                </div>
+                <div class="thumbnail">
+                    <img src="imagens/Csharp.png" alt="C#"  onclick="imagem('Csharp')">
+                </div>
+            </div>
+            <div class="display-image">
+                <img id="imagemGrande">
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+/* Cabeçalho */
+
+.cabeçalho {
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(48, 0, 186, 0.76);
+}
+
+.conheça {
+    position: absolute;
+    width: 214px;
+    height: 38px;
+    left: 120px;
+    top: 58px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.blog {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 458px;
+    top: 58px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+
+.empresa {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 658px;
+    top: 58px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+
+.omg {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 1038px;
+    top: 58px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+
+.frame {
+    position: absolute;
+    width: 324px;
+    height: 89px;
+    left: 34px;
+    top: 48px;
+}
+
+.texto {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+}
+
+.frame_1 {
+    position: absolute;
+    width: 1440px;
+    height: 689px;
+    left: 0px;
+    top: 150px;
+
+    background: rgba(220, 6, 44, 0.7);
+}
+
+.astronauta {
+    position: absolute;
+    width: 424px;
+    height: 422px;
+    left: 1016px;
+    top: 217px;
+
+    background: url(Astronauta.png);
+}
+
+.texto_3 {
+    position: absolute;
+    width: 752px;
+    height: 233px;
+    left: 203px;
+    top: 276px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+.texto_4{
+    position: absolute;
+    width: 752px;
+    height: 233px;
+    left: 447px;
+    top: 336px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.texto_2 {
+    position: absolute;
+    width: 237px;
+    height: 116px;
+    left: 116px;
+    top: 101px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+
+    color: #FFFFFF;
+
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 185px;
+    left: 0px;
+    top: 839px;
+
+    background: rgba(48, 0, 186, 0.8);
+}
+
+.logo{
+    position: absolute;
+    width: 198px;
+    height: 100px;
+    left: 634px;
+    top: 43px;
+    
+    background: url(logo-dark.png);  
+}
+
+

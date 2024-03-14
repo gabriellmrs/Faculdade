@@ -1,0 +1,16 @@
+#Config
+#Fri Jun 02 15:56:13 BRT 2023
+cfg.ancorador=true
+cfg.autosalvarintervalo=5
+cfg.mostrargrade=true
+cfg.apagartextoaoeditar=true
+cfg.location.y=-8
+cfg.location.x=-8
+cfg.mostrardimensoesaomover=true
+cfg.gradelargura=23
+cfg.mostrartooltips=true
+cfg.tipodefault=0
+cfg.mostrarids=false
+cfg.recentes=C\:\\Users\\Pichau\\Downloads\\TDE-MODELO-LOGICO.brM3;C\:\\Users\\Pichau\\Downloads\\TDE-MODELO-LOGICO (1).brM3;C\:\\Users\\Pichau\\Downloads\\TDE - CONCEITUAL.brM3;C\:\\Users\\Pichau\\Downloads\\TDE - CONCEITUAL (2).brM3;C\:\\Users\\Pichau\\Downloads\\modelo_logico.brM3
+cfg.location.salvar=true
+cfg.propaguedeletetolines=true

@@ -1,0 +1,83 @@
+/* Dark mode configurações */
+
+.switch-dark-mode {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+  }
+  .switch-dark-mode #dark-mode {
+    display: none;
+  }
+  .switch-dark-mode .fake-check {
+    position: absolute;
+    cursor: pointer;
+    background: #ccc;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 34px;
+  }
+  .fake-check:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #fff;
+    top: 2px;
+    transition: 0.5s;
+  }
+  #dark-mode:checked + .fake-check {
+    background: #464646;
+  }
+  #dark-mode:checked + .fake-check::before {
+    box-shadow: 6px 1px 0px 2px #f7e818;
+    top: 2px;
+    right: 39px;
+    background-color: transparent;
+    transform: translateX(30px);
+  }
+  body:has(#dark-mode:checked) {
+    background-color: var(--body-dark-mode);
+    color: var(--white-color);
+  }
+  body:has(#dark-mode:checked) > header {
+    background-color: var(--body-dark-mode);
+  }
+  body:has(#dark-mode:checked) > header .top-menu > li a {
+    color: var(--white-color);
+  }
+  body:has(#dark-mode:checked) > header .top-menu > li a:hover {
+    border-bottom: var(--border-dark-mode);
+  }
+  body:has(#dark-mode:checked) > main {
+    background-color: var(--body-dark-mode);
+  }
+  body:has(#dark-mode:checked) > main .section-main {
+    box-shadow: var(--box-shadow-none);
+    background-color: var(--box-color);
+  }
+  body:has(#dark-mode:checked) > main .section-main p {
+    color: var(--white-color);
+  }
+  body:has(#dark-mode:checked) > header .logo-img {
+    background-image: var(--logo-dark-mode);
+  }
+  body:has(#dark-mode:checked) > .container   {
+    box-shadow: var(--box-shadow-none);
+    background-color: var(--box-color);
+   }
+   
+  body:has(#dark-mode:checked) > .container h1  {
+    color: var(--white-color);
+   }
+   
+
+   
+   
+  body:has(#dark-mode:checked) > .container .brands  {
+   color: var(--white-color);
+  }
+  

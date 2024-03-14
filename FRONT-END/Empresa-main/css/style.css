@@ -1,0 +1,468 @@
+  * {
+  margin: 0;
+  bottom: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=REM&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=REM&family=Roboto:wght@300&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css");
+:root {
+  --body-default-color: #fff;
+  --body-dark-mode: #000;
+  --default-color: #f6833a;
+  --font-family-1: "Poppins", sans-serif;
+  --font-family-2: "Roboto", sans-serif;
+  --white-color: #fff;
+  --box-color-dark-mode: #141212;
+  --header-color-default: #ffffff;
+  --header-box-shadow: rgb(255 255 255 / 8%) 0px 4px 26px;
+  --header-dark-mode: #1b1b1b;
+  --text-dark: #000;
+  --box-shadow-none: 0px 0px 0px 0px;
+  --box-color: #525151;
+  --logo-light-mode: url(../img/logo-2-r.png);
+  --logo-dark-mode: url(../img/logo-2-r-1.png);
+  --border-default: 2px solid #000;
+  --border-dark-mode: 2px solid #ffffff;
+}
+body {
+  background-color: var(--body-default-color);
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5rem;
+  color: var(--white-color);
+  background: var(--header-color-default);
+  box-shadow: var(--header-box-shadow);
+  z-index: 3;
+  line-height: 1;
+}
+header .top-menu {
+  float: right;
+  margin-top: 2rem;
+}
+.top-menu li {
+  display: inline;
+  padding: 12px;
+  font-size: 23px;
+  font-family: var(--font-family-1);
+  font-weight: bolder;
+}
+.top-menu li a {
+  text-decoration: none;
+  color: var(--text-dark);
+}
+header .logo-img {
+  width: 4.8rem;
+  height: 4.8rem;
+  margin: 2px;
+  position: absolute;
+  background-size: cover;
+  background-image: var(--logo-light-mode);
+  background-repeat: no-repeat;
+}
+main {
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  margin-left: 7%;
+  margin-top: 2rem;
+  display: initial;
+}
+
+.container .brands {
+  width: 50rem;
+  margin-top: 10rem;
+  margin-left: 0%;
+  margin-left: 0%;
+}
+.brands h1 {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-family-1);
+  margin-bottom: 12px;
+  font-size: 35px;
+}
+.brands ul  {
+  width: fit-content;
+}
+.brands ul li{
+  list-style: none ;
+  margin-right: 5rem;
+  display: inline;
+
+}
+
+.container .slider {
+  margin: 30px;
+  display: flex;
+  width: 50%;
+  background: #eef;
+  height: 40%;
+  overflow: hidden;
+  margin: 8rem;
+  border-radius: 20px;
+}
+.slider-area {
+  display: flex;
+  width: 100%;
+  animation-name: slider-banner;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.slider-img {
+  position: relative;
+  height: 25rem;
+  width: 100%;
+}
+.container .slider-move {
+  display: flex;
+  margin-left: 40%;
+  margin-right: auto;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  line-height: 10px;
+}
+
+.slider-move li {
+  display: inline;
+  padding: 8px;
+  margin: 1rem;
+  border-radius: 51px;
+  width: 20px;
+  height: 20px;
+  background: #929292;
+  text-align: center;
+  color: #000000;
+  transition: ease-in 2ms;
+  line-height: 1;
+}
+.slider-move li:hover {
+  background: #000;
+  color: #fff;
+}
+
+.slider-move li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--font-family-1);
+  font-size: 20px;
+}
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .section-main {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 20px;
+  background: white;
+  margin: 20px;
+  box-shadow: #d5d5df 1px 0px 6px 3px;
+  margin-top: 0rem;
+  transition: transform 0.5s;
+  padding: 16px;
+  font-family: var(--font-family-2);
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: justify;
+}
+.section-main:hover {
+  transform: scale(1.1);
+}
+
+.section-main p {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: var(--font-family-1);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+main .social-media {
+  width: 100%;
+  line-height: 3rem;
+}
+.social-media ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media ul li {
+  display: inline-block;
+  padding: 12px;
+  cursor: pointer;
+}
+
+@keyframes slider-banner {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  85% {
+    margin-left: -300%;
+  }
+  90% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-menu li {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .top-menu {
+    display: flex;
+    margin-top: 1rem;
+  }
+}
+
+.top-menu li:hover {
+  border-bottom: 2px solid #000;
+}
+
+.top-menu li a {
+  text-decoration: none;
+  color: var(--text-dark);
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+  transition: filter 0.3s ease-in-out;
+}
+
+li a {
+  text-decoration: none;
+  color: var(--text-dark);
+  transition: filter 0.3s ease-in-out;
+}
+-- li {
+  list-style: none;
+  margin: 10px 0;
+  transition: filter 0.3s ease-in-out;
+}
+
+li a {
+  text-decoration: none;
+  color: var(--text-dark);
+  transition: filter 0.3s ease-in-out;
+}
+
+li a:hover {
+  filter: brightness(1.7);
+}
+
+li a svg.bi-whatsapp {
+  fill: green;
+  width: 36px;
+  height: 36px;
+  transition: fill 0.3s ease-in-out;
+}
+
+li a svg.bi-facebook {
+  fill: #021da4;
+  width: 36px;
+  height: 36px;
+  transition: fill 0.3s ease-in-out;
+}
+
+li a svg.bi-linkedin {
+  fill: rgb(10, 102, 194);
+  width: 36px;
+  height: 36px;
+  transition: fill 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .top-menu li {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .top-menu {
+    display: flex;
+    margin-top: 1rem;
+  }
+}
+
+.top-menu li:hover {
+  border-bottom: var(--border-default);
+}
+
+.top-menu li a {
+  text-decoration: none;
+  color: var(--text-dark);
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+  transition: filter 0.3s ease-in-out;
+}
+
+li a {
+  text-decoration: none;
+  color: var(--text-dark);
+  transition: filter 0.3s ease-in-out;
+}
+-- li {
+  list-style: none;
+  margin: 10px 0;
+  transition: filter 0.3s ease-in-out;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+  transition: filter 0.3s ease-in-out;
+}
+
+li a:hover {
+  filter: brightness(1.7);
+}
+
+li a svg.bi-whatsapp {
+  fill: green;
+  width: 36px;
+  height: 36px;
+  transition: fill 0.3s ease-in-out;
+}
+
+li a svg.bi-facebook {
+  fill: #021da4;
+  width: 36px;
+  height: 36px;
+  transition: fill 0.3s ease-in-out;
+}
+
+li a svg.bi-linkedin {
+  fill: rgb(10, 102, 194);
+  width: 36px;
+  height: 36px;
+  transition: fill 0.3s ease-in-out;
+}
+.abc {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.abc h3{
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.abc_2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.abc_3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sec_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sec_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: -80px;
+}
+
+.sec img {
+  max-width: 40%;
+  height: auto;
+}
+
+.sec_2 img {
+  max-width: 40%;
+  height: auto;
+  display: flex;
+}
+
+.sec p {
+  max-width: 50%;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.sec_2 p {
+  max-width: 50%;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.sec_3 p {
+  max-width: 50%;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.txt{
+  
+  display: flex;
+}
+.final{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.abc_inicio{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}

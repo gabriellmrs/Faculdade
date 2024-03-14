@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <title>História da Empresa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #838181;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #41464b;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: -67px;
+            
+        }
+        .header h1{
+            color: #fff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .timeline {
+            margin-top: 20px;
+        }
+
+        .event {
+            display: flex;
+            margin-bottom: 40px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+
+        .event h2 {
+            color: #000000;
+        }
+
+        .event p {
+            font-style: italic;
+        }
+
+        .event img {
+            max-width: 100%;
+            display:flex ;
+            margin: 10px auto;
+        }
+        a{
+            text-decoration: none;
+            color: #19aae4;
+        }
+        .voltar{
+            color: #000000;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-img"></div>
+        <ul class="top-menu">
+          <li><a href="index.html#contato">CONTATO</a></li>
+          <li><a href="orcamento.html">ORÇAMENTO</a></li>
+          <li><a href="historia.html">SOBRE NÓS</a></li> 
+          <li>
+            <label class="switch-dark-mode">
+              <input type="checkbox" id="dark-mode" />
+              <span class="fake-check"></span>
+            </label>
+          </li>
+        </ul>
+      </header><br><br><br><br><br><br><br><br>
+    <div class="header">
+        <h1>História da Empresa</h1>
+    </div>
+
+    <div class="container">
+        <h2>Nossa Jornada</h2>
+
+        <div class="timeline">
+            <div class="event">
+                <p>A minha carreira na área de eletrônica começou por acaso, quando eu precisei de ajuda para um projeto no início da faculdade e não encontrei ninguém que pudesse me auxiliar. Foi aí que eu decidi estudar eletrônica por conta própria e descobri a minha paixão por essa área. Eu percebi que havia uma carência de profissionais qualificados na minha cidade e que eu poderia aproveitar essa oportunidade para me destacar no mercado.
+
+                    Desde 2017, trabalho com manutenção e reparo em placas eletrônicas, atendendo clientes de diversos segmentos. Em 2019, eu ampliei o meu leque de serviços e comecei a trabalhar com manutenção em equipamentos industriais, como inversores de frequência, controladores lógicos programáveis e sensores. Hoje, eu sou formado em engenharia elétrica e presto um serviço mais sofisticado e profissional, customizado de acordo com a necessidade do cliente.</p>
+            </div>
+
+            <div class="event">
+                
+                <img src="img/danfoss_hist.jpeg" alt="danfoss" height="400" width="250">
+                <p>Certificação Autorizada da <a href="https://www.danfoss.com/pt-br/">Danfoss</a> </p>
+            </div>
+
+            <div class="event">
+        
+                <img src="img/siemens_hist.jpeg" alt="siemens" height="400" width="250">
+                <p>Certificação <a href="https://rs2siemens.com.br/?gclid=Cj0KCQjw9rSoBhCiARIsAFOiplmgjgbm0xMgmu4yX22kx6oZt6SVLnU8Zggl0gwhuFz88jiEcr5CTTUaAvp-EALw_wcB#categorias">Siemens Innovatio Forum</a> </p>
+
+                <a href="index.html"> <img src="img/voltar.png" alt="voltar" class="voltar" height="70" width="70"> </a>
+            </div>
+
+           
+        </div>
+    </div>
+</body>
+</html>

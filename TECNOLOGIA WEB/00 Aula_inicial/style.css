@@ -1,0 +1,107 @@
+/*Questão 01*/
+#conteudo{
+    background-color: rgb(118, 200, 112);
+}
+/*Questão 02*/
+.paragrafo{
+
+    border-color: rgb(249, 3, 3) solid;
+    margin: 20px;
+}
+/*Questão 03*/
+.questao3{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+/*Questão 05*/
+.botao{
+    background-color: rgb(12, 135, 20);
+    color: #fff;
+    border-radius: 5rem;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    
+
+}
+.botao:hover{
+    background-color: #7de775;
+}
+
+/*Questão 06*/
+.link_a{
+    color: blue;
+    text-decoration: none;
+}
+.link_a:hover{
+    transition: 2s;
+    background-color: #7de775;
+    color: #fff;
+}
+/*Questão 08*/
+.logo{
+    color: #ff0800;
+    font-size: 24px;
+    padding: 1.5;
+    font: bold;
+}
+
+/*Questão 09*/
+.txt{
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    outline: none;
+}
+.txt:focus{
+    border-color: #007bff; 
+    box-shadow: 2px 2px 8px rgba(0, 123, 255, 0.3);
+}
+
+/*Questão 11*/
+.nav-bar{
+      padding: 10px
+}
+.nav-bar a{
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    margin-right: 10px; 
+    display: inline-block; 
+    transition: background-color 0.3s;
+}
+.nav-bar a:hover{
+    background-color: #555; 
+}
+.nav-bar{
+    text-align: right;
+}
+
+/*Questão 12*/
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+  }
+  .card h2 {
+    color: #333;
+  }
+  .card p {
+    color: #666;
+  }
+  .card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  .card button:hover {
+    background-color: #0056b3;
+  }
